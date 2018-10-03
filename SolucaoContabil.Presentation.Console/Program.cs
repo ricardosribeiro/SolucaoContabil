@@ -15,20 +15,25 @@ namespace SolucaoContabil.Presentation.Console
         {
             var readerA = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\2018.txt", Encoding.Default);
             var readerZ = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\2018 - Copia.txt", Encoding.Default);
-            var readerP = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\A201806A.ext", Encoding.Default);
+            var readerP = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\extrato.txt", Encoding.Default);
 
 
             string linha = null;
             string codProprietario = null;
             string nomeProprietario = null;
             string competencia = null;
+
             string codBanco = null;
             string banco = null;
+            string agencia = null;
+            string contaCorrente = null;
+
+            string codImovel = null;
+
             
             while ((linha = readerP.ReadLine()) != null)
             {
-                //codImovel = Regex.Match(linha, @"(Imóvel:\s\d{1,5})").ToString();
-                //codImovel = Regex.Replace(codImovel, @"([^0-9.])", "");
+                codImovel = Regex.Match(linha, @"(Imóvel:\s\d{1,5})").ToString();
                 codProprietario = Regex.Match(linha, @"(Prop:\d{1,5})").ToString();
                 codBanco = Regex.Match(linha, @"(Banco\s\d{1,3})").ToString();
                 if (!String.IsNullOrEmpty(codProprietario))
@@ -37,16 +42,26 @@ namespace SolucaoContabil.Presentation.Console
                     nomeProprietario = Regex.Match(linha, @"(Prop:\d{1,9}\s{1,6}\D{1,34}\S)").ToString();
                     nomeProprietario = nomeProprietario.Substring(nomeProprietario.IndexOf(" ")).Trim();
                     competencia = Regex.Match(linha, @"(\d{2}\/\d{4})").ToString();
-                    System.Console.WriteLine($"{codProprietario.PadRight(10)}{nomeProprietario.PadRight(40)}{competencia.PadRight(30)}");
+                    System.Console.WriteLine($"CodProp: {codProprietario.PadRight(11)}NomeProp: {nomeProprietario.PadRight(41)}Competencia: {competencia.PadRight(30)}");
                 }
                 if (!string.IsNullOrEmpty(codBanco))
                 {
                     codBanco = codBanco.Substring(codBanco.IndexOf(" ")).Trim();
                     banco = Regex.Match(linha, @"(Banco\s\d{1,3}\s\D{1,15}\S)").ToString();
-                    banco = banco.Substring(banco.IndexOf(" ")+1);
-                    System.Console.WriteLine($"{codBanco.PadRight(10)}{banco.PadRight(10)}");
-
+                    banco = banco.Substring(banco.IndexOf(" ") + 1);
+                    banco = Regex.Replace(banco, @"([^\D.])", "").Trim();
+                    agencia = Regex.Match(linha, @"(Agencia\s{1,3}\d{1,8})").ToString();
+                    agencia = Regex.Replace(agencia, @"([^0-9.])", "").Trim();
+                    contaCorrente = Regex.Match(linha, @"(C.Corrente\s{1,3}\d{1,9})").ToString();
+                    contaCorrente = Regex.Replace(contaCorrente, @"(\D)", "").Trim();
+                    System.Console.WriteLine($"CodBanco: {codBanco.PadRight(10)}NomeBanco: {banco.PadRight(40)}Agencia: {agencia.PadRight(10)}Conta: {contaCorrente}");
                 }
+                if (!string.IsNullOrEmpty(codImovel))
+                {
+                    codImovel = Regex.Replace(codImovel, @"([^0-9.])", "");
+                    System.Console.WriteLine($"CodImovel:{codImovel.PadRight(10)}");
+                }
+
             }
             System.Console.ReadKey();
 
