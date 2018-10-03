@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolucaoContabil.Data", "SolucaoContabil.Data\SolucaoContabil.Data.csproj", "{D1509E9B-2C24-4B3A-81B4-A8537A9EB25F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolucaoContabil.Domain", "SolucaoContabil.Domain\SolucaoContabil.Domain.csproj", "{03CA123C-C63A-433D-8C7A-BCD7CFF529CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{4F855C0E-33B3-405E-9C2A-8BE2F7B212A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Data", "1 - Data", "{A128B845-CB33-4962-BD7F-CFD0449F17E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{B2A135BD-F5DA-4B93-931C-15D3757D8609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolucaoContabil.Presentation.Console", "SolucaoContabil.Presentation.Console\SolucaoContabil.Presentation.Console.csproj", "{A94C4545-3B8C-465D-8455-B2FBB95FDB05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolucaoContabil.Presentation.Mvc", "SolucaoContabil.Presentation.Mvc\SolucaoContabil.Presentation.Mvc.csproj", "{F7FBC031-51C7-41E8-9640-8F2AD01EC000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1509E9B-2C24-4B3A-81B4-A8537A9EB25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1509E9B-2C24-4B3A-81B4-A8537A9EB25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1509E9B-2C24-4B3A-81B4-A8537A9EB25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1509E9B-2C24-4B3A-81B4-A8537A9EB25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CA123C-C63A-433D-8C7A-BCD7CFF529CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CA123C-C63A-433D-8C7A-BCD7CFF529CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CA123C-C63A-433D-8C7A-BCD7CFF529CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CA123C-C63A-433D-8C7A-BCD7CFF529CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94C4545-3B8C-465D-8455-B2FBB95FDB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94C4545-3B8C-465D-8455-B2FBB95FDB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94C4545-3B8C-465D-8455-B2FBB95FDB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94C4545-3B8C-465D-8455-B2FBB95FDB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FBC031-51C7-41E8-9640-8F2AD01EC000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FBC031-51C7-41E8-9640-8F2AD01EC000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FBC031-51C7-41E8-9640-8F2AD01EC000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FBC031-51C7-41E8-9640-8F2AD01EC000}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1509E9B-2C24-4B3A-81B4-A8537A9EB25F} = {A128B845-CB33-4962-BD7F-CFD0449F17E1}
+		{03CA123C-C63A-433D-8C7A-BCD7CFF529CC} = {B2A135BD-F5DA-4B93-931C-15D3757D8609}
+		{A94C4545-3B8C-465D-8455-B2FBB95FDB05} = {4F855C0E-33B3-405E-9C2A-8BE2F7B212A0}
+		{F7FBC031-51C7-41E8-9640-8F2AD01EC000} = {4F855C0E-33B3-405E-9C2A-8BE2F7B212A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D84A868C-F9C8-4BEF-ABFD-C460920DA35A}
+	EndGlobalSection
+EndGlobal

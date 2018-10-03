@@ -1,0 +1,16 @@
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\obj\Debug\SolucaoContabil.Data.csprojAssemblyReference.cache
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\obj\Debug\SolucaoContabil.Data.csproj.CoreCompileInputs.cache
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\SolucaoContabil.Data.dll.config
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\SolucaoContabil.Data.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\SolucaoContabil.Data.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\EntityFramework.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\SolucaoContabil.Domain.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\SolucaoContabil.Domain.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\EntityFramework.xml
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\obj\Debug\SolucaoContabil.Data.csproj.CopyComplete
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\obj\Debug\SolucaoContabil.Data.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\obj\Debug\SolucaoContabil.Data.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\obj\Debug\SolucaoContabil.Data.Migrations.Inicial.resources
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Data\obj\Debug\SolucaoContabil.Data.csproj.GenerateResource.cache

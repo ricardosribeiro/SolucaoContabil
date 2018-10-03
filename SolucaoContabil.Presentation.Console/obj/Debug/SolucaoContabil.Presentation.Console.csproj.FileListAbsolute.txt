@@ -1,0 +1,17 @@
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Presentation.Console.exe.config
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Presentation.Console.exe
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Presentation.Console.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\obj\Debug\SolucaoContabil.Presentation.Console.csproj.CoreCompileInputs.cache
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\obj\Debug\SolucaoContabil.Presentation.Console.exe
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\obj\Debug\SolucaoContabil.Presentation.Console.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\EntityFramework.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Data.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Domain.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Data.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Data.dll.config
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\SolucaoContabil.Domain.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\EntityFramework.xml
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\obj\Debug\SolucaoContabil.Presentation.Console.csprojAssemblyReference.cache
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Presentation.Console\obj\Debug\SolucaoContabil.Presentation.Console.csproj.CopyComplete

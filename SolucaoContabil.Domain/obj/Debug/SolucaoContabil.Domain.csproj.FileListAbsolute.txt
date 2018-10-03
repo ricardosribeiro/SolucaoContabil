@@ -1,0 +1,6 @@
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Domain\bin\Debug\SolucaoContabil.Domain.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Domain\bin\Debug\SolucaoContabil.Domain.pdb
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Domain\obj\Debug\SolucaoContabil.Domain.csprojAssemblyReference.cache
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Domain\obj\Debug\SolucaoContabil.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Domain\obj\Debug\SolucaoContabil.Domain.dll
+C:\Users\ricar\OneDrive\Projetos\SolucaoContabil\SolucaoContabil.Domain\obj\Debug\SolucaoContabil.Domain.pdb
