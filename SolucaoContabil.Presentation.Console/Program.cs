@@ -15,7 +15,7 @@ namespace SolucaoContabil.Presentation.Console
         {
             var readerA = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\2018.txt", Encoding.Default);
             var readerZ = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\2018 - Copia.txt", Encoding.Default);
-            var readerP = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\extrato.txt", Encoding.Default);
+            var readerP = new StreamReader(@"C:\Users\ricar\OneDrive\Documentos\Empresa\Clientes\All Consultoria\A201806A.ext", Encoding.Default);
 
 
             string linha = null;
@@ -28,6 +28,10 @@ namespace SolucaoContabil.Presentation.Console
             string agencia = null;
             string contaCorrente = null;
 
+            string dataLancamento = null;
+            string competenciaLancamento = null;
+            string descricaoDaTaxa = null;
+
             string codImovel = null;
 
             
@@ -36,8 +40,10 @@ namespace SolucaoContabil.Presentation.Console
                 codImovel = Regex.Match(linha, @"(Imóvel:\s\d{1,5})").ToString();
                 codProprietario = Regex.Match(linha, @"(Prop:\d{1,5})").ToString();
                 codBanco = Regex.Match(linha, @"(Banco\s\d{1,3})").ToString();
+                dataLancamento = Regex.Match(linha, @"(\d{2}\/\d{2}\/\d{6}\/\d{4})").ToString();
                 if (!String.IsNullOrEmpty(codProprietario))
                 {
+                    System.Console.WriteLine();
                     codProprietario = Regex.Replace(codProprietario, @"([^0-9.])", "");
                     nomeProprietario = Regex.Match(linha, @"(Prop:\d{1,9}\s{1,6}\D{1,34}\S)").ToString();
                     nomeProprietario = nomeProprietario.Substring(nomeProprietario.IndexOf(" ")).Trim();
@@ -60,6 +66,14 @@ namespace SolucaoContabil.Presentation.Console
                 {
                     codImovel = Regex.Replace(codImovel, @"([^0-9.])", "");
                     System.Console.WriteLine($"CodImovel:{codImovel.PadRight(10)}");
+                }
+                if (!string.IsNullOrEmpty(dataLancamento))
+                {
+                    competenciaLancamento = dataLancamento.Substring(10);
+                    dataLancamento = dataLancamento.Substring(0, dataLancamento.Length - 7);
+                    descricaoDaTaxa = Regex.Match(linha, @"(\d{2}\/\d{2}\/\d{6}\/\d{4}\s{5}\D{3,50})").ToString();
+                    descricaoDaTaxa = descricaoDaTaxa.Substring(18).Trim();
+                    System.Console.WriteLine($"DataLancamento: {dataLancamento.PadRight(20)}Competencia: {competenciaLancamento.PadRight(10)}DescricaoTaxa: {descricaoDaTaxa.PadRight(10)}");
                 }
 
             }
